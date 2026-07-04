@@ -1,0 +1,78 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+::selection {
+  background-color: #b4544c;
+  color: #fbf6f1;
+}
+
+/* Ticket signature element: perforated edge on the appointment-slip cards */
+.ticket-notch {
+  position: relative;
+}
+
+.ticket-notch::before,
+.ticket-notch::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 18px;
+  height: 18px;
+  background: #fbf6f1;
+  border-radius: 9999px;
+  z-index: 1;
+}
+
+.ticket-notch::before {
+  left: -9px;
+}
+
+.ticket-notch::after {
+  right: -9px;
+}
+
+.ticket-perforation {
+  background-image: repeating-linear-gradient(
+    to right,
+    transparent 0,
+    transparent 6px,
+    #d98a80 6px,
+    #d98a80 12px
+  );
+  height: 2px;
+}
+
+.no-scrollbar {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+/* Focus visibility for keyboard users */
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+select:focus-visible {
+  outline: 2px solid #b4544c;
+  outline-offset: 2px;
+}
