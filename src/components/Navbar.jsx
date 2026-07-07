@@ -31,11 +31,11 @@ export default function Navbar() {
       }`}
     >
       <div className="mx-auto flex max-w-7xl items-center justify-between px-5 py-4 sm:px-8">
-        <Link
-          to="/"
-          className="font-display text-2xl italic text-cream tracking-tight"
-        >
-          Beauty<span className="text-Air Quotes-light not-italic"> </span>craft
+        <Link to="/" className="text-3xl md:text-3xl text-cream tracking-tight">
+          <div className="flex flex-col">
+            <span className="block text-Air Quotes-light not-italic">Beauty craft</span>
+            <span className="block text-right text-xs font-normal mt-0.5 text-cream/70">By Sneha</span>
+          </div>
         </Link>
 
         <nav className="hidden items-center gap-8 md:flex">

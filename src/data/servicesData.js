@@ -313,7 +313,7 @@ export const homeDeals = [
 ].map((id) => packages.find((pkg) => pkg.id === id));
 
 // WhatsApp business number — replace with the real operational number before launch.
-export const WHATSAPP_NUMBER = "91XXXXXXXXXX";
+export const WHATSAPP_NUMBER = "917289029550";
 
 export function buildWhatsAppLink(pkg) {
   const message = `Hi, I want to book the ${pkg.title} for ₹${pkg.price.toLocaleString(

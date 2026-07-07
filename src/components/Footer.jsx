@@ -12,7 +12,7 @@ export default function Footer() {
       <div className="mx-auto grid max-w-7xl gap-10 px-5 py-14 sm:px-8 md:grid-cols-4">
         <div>
           <p className="font-display text-2xl italic text-cream">
-            Maison<span className="text-rosewood-light not-italic">.</span>Home
+            Beauty<span className="text-rosewood-light not-italic"> </span>Craft
           </p>
           <p className="mt-3 max-w-xs text-sm leading-relaxed">
             Certified stylists, sanitized kits, and salon-grade products —
