@@ -143,7 +143,7 @@ export const packages = [
     id: "oxy-facial-premium-hair-spa",
     category: "skin-bridal",
     title: "Oxy Facial Premium Hair Spa",
-    price: 1249,
+    price: 1299,
     items: ["Oxy Facial", "Loreal Hair Spa", "Face Bleach", "Any Threadwork"],
   },
   {
@@ -201,7 +201,7 @@ export const packages = [
     id: "full-body-honey-bikini-pack",
     category: "full-body-waxing",
     title: "Full Body Honey Bikini Pack",
-    price: 1999,
+    price: 1499,
     items: ["Full Body Wax Honey", "Bikini Wax", "Any Threadwork"],
   },
   {
@@ -236,10 +236,10 @@ export const packages = [
     id: "chocolate-wax-deep-smoothness-pack",
     category: "full-body-waxing",
     title: "Chocolate Wax Deep Smoothness Pack",
-    price: 999,
+    price: 1499,
     items: [
       "Full Arms Wax Chocolate",
-      "Half Legs Wax Chocolate",
+      "Full Legs Wax Chocolate",
       "Underarms Wax Chocolate",
       "Hand & Foot D-Tan",
       "Any Threadwork",
@@ -277,7 +277,7 @@ export const packages = [
     id: "sara-dtan-hair-revitalization-combo",
     category: "mani-pedi",
     title: "Sara D-Tan Hair Revitalization Combo",
-    price: 1799,
+    price: 1199,
     items: [
       "Sara D-Tan / Rose Pedicure / Manicure",
       "Loreal Hair Spa",
@@ -288,7 +288,7 @@ export const packages = [
     id: "rica-luxury-waxing-massage-treatment",
     category: "mani-pedi",
     title: "Rica Luxury Waxing & Massage Treatment",
-    price: 1199,
+    price: 1799,
     items: [
       "Full Arms Wax Rica",
       "Full Legs Wax Rica",
