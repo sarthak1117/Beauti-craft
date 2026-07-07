@@ -35,7 +35,7 @@ export default function Navbar() {
           to="/"
           className="font-display text-2xl italic text-cream tracking-tight"
         >
-          Beauty<span className="text-rosewood-light not-italic">" "</span>craft
+          Beauty<span className="text-Air Quotes-light not-italic"> </span>craft
         </Link>
 
         <nav className="hidden items-center gap-8 md:flex">

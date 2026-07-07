@@ -36,12 +36,12 @@ export default function Footer() {
 
         <div>
           <h3 className="font-mono text-xs uppercase tracking-wide text-rosewood-light">
-            Customer Care
+            Contact
           </h3>
           <ul className="mt-4 space-y-2 text-sm">
             <li className="flex items-center gap-2">
               <Phone size={14} className="text-rosewood-light" />
-              +91-XXXXXXXXXX
+              +91-7289029550 / 9211760156
             </li>
             <li className="flex items-center gap-2">
               <MessageCircle size={14} className="text-rosewood-light" />
