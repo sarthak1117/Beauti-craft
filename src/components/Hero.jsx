@@ -9,16 +9,22 @@ const slides = [
     eyebrow: "Book in minutes",
     headline: "Your salon, at your door.",
     sub: "Certified stylists arrive with sanitized kits — facials, waxing and bridal care, on your schedule.",
+    image:
+      "https://images.unsplash.com/photo-1521590832167-7bcbfaa6381f?auto=format&fit=crop&w=1600&q=80",
   },
   {
     eyebrow: "This week's favorite",
     headline: "Hydra facials, at home.",
     sub: "The FYC Hydra Facial Chocolate Special is our most-booked bundle this month.",
+    image:
+      "https://images.unsplash.com/photo-1515377905703-c4788e51af15?auto=format&fit=crop&w=1600&q=80",
   },
   {
     eyebrow: "For the big day",
     headline: "Bridal glow, planned ahead.",
     sub: "Reserve your Blossom Kochhar Bridal package weeks in advance — slots fill fast in wedding season.",
+    image:
+      "https://plus.unsplash.com/premium_photo-1664271278303-d01e2a68ad14?q=80&w=1169&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
   },
 ];
 
@@ -39,10 +45,16 @@ export default function Hero() {
 
   return (
     <section className="relative overflow-hidden bg-plum">
+      <div
+        className="absolute inset-0 bg-cover bg-center transition-all duration-700"
+        style={{
+          backgroundImage: `linear-gradient(90deg, rgba(40, 24, 25, 0.92) 0%, rgba(40, 24, 25, 0.72) 42%, rgba(40, 24, 25, 0.28) 100%), url(${slide.image})`,
+        }}
+      />
       <div className="pointer-events-none absolute -right-24 -top-24 h-72 w-72 rounded-full bg-rosewood/20 blur-3xl" />
       <div className="pointer-events-none absolute -left-16 bottom-0 h-56 w-56 rounded-full bg-gold/10 blur-3xl" />
 
-      <div className="relative mx-auto max-w-7xl px-5 pb-14 pt-14 sm:px-8 sm:pb-20 sm:pt-20">
+      <div className="relative z-10 mx-auto min-h-[520px] max-w-7xl px-5 pb-14 pt-14 sm:min-h-[620px] sm:px-8 sm:pb-20 sm:pt-20">
         <p className="font-mono text-xs uppercase tracking-[0.2em] text-rosewood-light">
           Now serving {zone} · {slide.eyebrow}
         </p>
@@ -51,7 +63,7 @@ export default function Hero() {
           {slide.headline}
         </h1>
 
-        <p className="mt-5 max-w-xl text-base text-cream/70 sm:text-lg">
+        <p className="mt-5 max-w-xl text-base text-cream/80 sm:text-lg">
           {slide.sub}
         </p>
 

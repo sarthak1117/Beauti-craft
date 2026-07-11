@@ -5,6 +5,7 @@ import Footer from "./components/Footer.jsx";
 import Home from "./pages/Home.jsx";
 import Services from "./pages/Services.jsx";
 import Safety from "./pages/Safety.jsx";
+import WeddingOffer from "./pages/WeddingOffer.jsx";
 
 export default function App() {
   return (
@@ -15,6 +16,7 @@ export default function App() {
           <Route path="/" element={<Home />} />
           <Route path="/services" element={<Services />} />
           <Route path="/safety" element={<Safety />} />
+          <Route path="/wedding-offer" element={<WeddingOffer />} />
         </Routes>
       </main>
       <Footer />

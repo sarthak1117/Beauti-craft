@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { MapPin, Phone, MessageCircle } from "lucide-react";
+import { Facebook, Instagram, MapPin, MessageCircle, Phone, Youtube } from "lucide-react";
 import { useLocation } from "../context/LocationContext.jsx";
 
 export default function Footer() {
@@ -10,7 +10,7 @@ export default function Footer() {
   return (
     <footer className="bg-plum text-cream/70">
       <div className="mx-auto grid max-w-7xl gap-10 px-5 py-14 sm:px-8 md:grid-cols-4">
-        <div>
+        {/* <div>
           <p className="font-display text-2xl italic text-cream">
             Beauty<span className="text-rosewood-light not-italic"> </span>Craft
           </p>
@@ -18,7 +18,7 @@ export default function Footer() {
             Certified stylists, sanitized kits, and salon-grade products —
             delivered to your door.
           </p>
-        </div>
+        </div> */}
 
         <div>
           <h3 className="font-mono text-xs uppercase tracking-wide text-rosewood-light">
@@ -77,10 +77,45 @@ export default function Footer() {
             </li>
           </ul>
         </div>
+
+        <div>
+          <h3 className="font-mono text-xs uppercase tracking-wide text-rosewood-light">
+            Follow Us
+          </h3>
+          <ul className="mt-4 space-y-3 text-sm">
+            <li>
+              <a
+                href="#"
+                className="inline-flex items-center gap-2 rounded-full border border-cream/20 px-3 py-2 transition hover:bg-cream/10 hover:text-cream"
+              >
+                <Instagram size={16} className="text-rosewood-light" />
+                Instagram
+              </a>
+            </li>
+            <li>
+              <a
+                href="#"
+                className="inline-flex items-center gap-2 rounded-full border border-cream/20 px-3 py-2 transition hover:bg-cream/10 hover:text-cream"
+              >
+                <Facebook size={16} className="text-rosewood-light" />
+                Facebook
+              </a>
+            </li>
+            <li>
+              <a
+                href="#"
+                className="inline-flex items-center gap-2 rounded-full border border-cream/20 px-3 py-2 transition hover:bg-cream/10 hover:text-cream"
+              >
+                <Youtube size={16} className="text-rosewood-light" />
+                YouTube
+              </a>
+            </li>
+          </ul>
+        </div>
       </div>
 
       <div className="border-t border-cream/10 px-5 py-5 text-center font-mono text-xs text-cream/40 sm:px-8">
-        © {year} Maison.Home. All rights reserved.
+        Copyright © {year} Beauty Craft. All rights reserved.
       </div>
     </footer>
   );
