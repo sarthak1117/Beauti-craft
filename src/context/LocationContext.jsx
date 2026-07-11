@@ -2,7 +2,7 @@ import React, { createContext, useContext, useEffect, useState } from "react";
 
 const LocationContext = createContext(null);
 
-export const SERVICE_ZONES = ["Delhi", "Noida", "Ghaziabad"];
+export const SERVICE_ZONES = ["Noida","Delhi","Ghaziabad"];
 const STORAGE_KEY = "salon_active_zone";
 
 export function LocationProvider({ children }) {

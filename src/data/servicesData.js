@@ -12,11 +12,11 @@ export const categories = [
     label: "Cleanups & Honey Wax Packs",
     icon: "droplet",
   },
-  // {
-  //   id: "skin-bridal",
-  //   label: "Skin Care & Bridal",
-  //   icon: "gem",
-  // },
+  {
+    id: "skin-bridal",
+    label: "Skin Care & Bridal",
+    icon: "gem",
+  },
   {
     id: "full-body-waxing",
     label: "Full Body Waxing & Grooming",
@@ -131,63 +131,63 @@ export const packages = [
     ],
   },
 
-  // // Skin Care & Bridal
-  // {
-  //   id: "aroma-magic-organic-fruit-facial",
-  //   category: "skin-bridal",
-  //   title: "Aroma Magic Organic Fruit Facial",
-  //   price: 999,
-  //   items: ["Aroma Magic Facial Fruit", "Face Bleach", "Any Threadwork"],
-  // },
-  // {
-  //   id: "oxy-facial-premium-hair-spa",
-  //   category: "skin-bridal",
-  //   title: "Oxy Facial Premium Hair Spa",
-  //   price: 1299,
-  //   items: ["Oxy Facial", "Loreal Hair Spa", "Face Bleach", "Any Threadwork"],
-  // },
-  // {
-  //   id: "blossom-kochhar-bridal-glow-care",
-  //   category: "skin-bridal",
-  //   title: "Blossom Kochhar Bridal Glow Care",
-  //   price: 1499,
-  //   items: [
-  //     "Blossom Kochhar Bridal Facial",
-  //     "Face Bleach / D-Tan",
-  //     "Full Arms Wax Honey",
-  //     "Underarms Wax Honey",
-  //     "Any Threadwork",
-  //   ],
-  // },
-  // {
-  //   id: "ozone-gold-facial-therapy",
-  //   category: "skin-bridal",
-  //   title: "Ozone Gold Facial Therapy",
-  //   price: 1499,
-  //   items: [
-  //     "Ozone Gold Facial",
-  //     "Gold Bleach",
-  //     "Full Arms Wax Honey",
-  //     "Underarms Wax Honey",
-  //     "Head Massage",
-  //     "Any Threadwork",
-  //   ],
-  // },
-  // {
-  //   id: "lotus-whitening-premium-chocolate-bundle",
-  //   category: "skin-bridal",
-  //   title: "Lotus Whitening Premium Chocolate Bundle",
-  //   price: 2199,
-  //   items: [
-  //     "Lotus Whitening Facial",
-  //     "Full Arms Wax Chocolate",
-  //     "Full Legs Wax Chocolate",
-  //     "Underarms Wax Chocolate",
-  //     "Face & Neck Bleach",
-  //     "Any Threadwork",
-  //   ],
-  //   bonus: "Complementary 20 Min Head Massage",
-  // },
+  // Skin Care & Bridal
+  {
+    id: "aroma-magic-organic-fruit-facial",
+    category: "skin-bridal",
+    title: "Aroma Magic Organic Fruit Facial",
+    price: 999,
+    items: ["Aroma Magic Facial Fruit", "Face Bleach", "Any Threadwork"],
+  },
+  {
+    id: "oxy-facial-premium-hair-spa",
+    category: "skin-bridal",
+    title: "Oxy Facial Premium Hair Spa",
+    price: 1299,
+    items: ["Oxy Facial", "Loreal Hair Spa", "Face Bleach", "Any Threadwork"],
+  },
+  {
+    id: "blossom-kochhar-bridal-glow-care",
+    category: "skin-bridal",
+    title: "Blossom Kochhar Bridal Glow Care",
+    price: 1499,
+    items: [
+      "Blossom Kochhar Bridal Facial",
+      "Face Bleach / D-Tan",
+      "Full Arms Wax Honey",
+      "Underarms Wax Honey",
+      "Any Threadwork",
+    ],
+  },
+  {
+    id: "ozone-gold-facial-therapy",
+    category: "skin-bridal",
+    title: "Ozone Gold Facial Therapy",
+    price: 1499,
+    items: [
+      "Ozone Gold Facial",
+      "Gold Bleach",
+      "Full Arms Wax Honey",
+      "Underarms Wax Honey",
+      "Head Massage",
+      "Any Threadwork",
+    ],
+  },
+  {
+    id: "lotus-whitening-premium-chocolate-bundle",
+    category: "skin-bridal",
+    title: "Lotus Whitening Premium Chocolate Bundle",
+    price: 2199,
+    items: [
+      "Lotus Whitening Facial",
+      "Full Arms Wax Chocolate",
+      "Full Legs Wax Chocolate",
+      "Underarms Wax Chocolate",
+      "Face & Neck Bleach",
+      "Any Threadwork",
+    ],
+    bonus: "Complementary 20 Min Head Massage",
+  },
 
   // Full Body Waxing & Grooming
   {

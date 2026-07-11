@@ -23,7 +23,7 @@ export default function Home() {
 
       <Hero />
 
-      <section className="bg-cream/5 py-16">
+      {/* <section className="bg-cream/5 py-16">
         <div className="mx-auto max-w-7xl px-5 sm:px-8">
           <div className="rounded-[2rem] overflow-hidden border border-rosewood/10 bg-plum text-cream shadow-2xl">
             <div className="grid gap-6 lg:grid-cols-[1fr_0.9fr]">
@@ -58,7 +58,7 @@ export default function Home() {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
 
       <CategoryGrid />
 

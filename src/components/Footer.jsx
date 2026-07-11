@@ -28,7 +28,7 @@ export default function Footer() {
             {zones.map((z) => (
               <li key={z} className="flex items-center gap-2">
                 <MapPin size={14} className="text-rosewood-light" />
-                {z}, NCR
+                {z}
               </li>
             ))}
           </ul>
@@ -65,16 +65,6 @@ export default function Footer() {
                 Hygiene & Safety
               </Link>
             </li>
-            <li>
-              <a href="#" className="hover:text-cream">
-                Terms of Service
-              </a>
-            </li>
-            <li>
-              <a href="#" className="hover:text-cream">
-                Privacy Policy
-              </a>
-            </li>
           </ul>
         </div>
 
@@ -85,14 +75,14 @@ export default function Footer() {
           <ul className="mt-4 space-y-3 text-sm">
             <li>
               <a
-                href="#"
+                href="https://www.instagram.com/beautycraftbysneha?igsh=MTA5d2p0eWV3Zm45dw%3D%3D"
                 className="inline-flex items-center gap-2 rounded-full border border-cream/20 px-3 py-2 transition hover:bg-cream/10 hover:text-cream"
               >
                 <Instagram size={16} className="text-rosewood-light" />
                 Instagram
               </a>
             </li>
-            <li>
+            {/* <li>
               <a
                 href="#"
                 className="inline-flex items-center gap-2 rounded-full border border-cream/20 px-3 py-2 transition hover:bg-cream/10 hover:text-cream"
@@ -109,7 +99,7 @@ export default function Footer() {
                 <Youtube size={16} className="text-rosewood-light" />
                 YouTube
               </a>
-            </li>
+            </li> */}
           </ul>
         </div>
       </div>
